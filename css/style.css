@@ -64,3 +64,25 @@ input {
 .input-min {
   margin-right: 62px;
 }
+
+button {
+background: #AEC346;
+box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
+border-radius: 10px;
+width: 342px;
+height: 72px;
+color: #FFFFFF;
+font-weight: 700;
+font-size: 36px;
+margin-top: 80px;
+border: none;
+cursor: pointer;
+
+}
+
+button:hover {
+  opacity: 0.9;
+}
+button:active {
+  opacity: 0.8;
+}
