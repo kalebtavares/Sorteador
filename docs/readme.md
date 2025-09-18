@@ -37,12 +37,6 @@ Acesse o Link:
 https://kalebtavares.github.io/Sorteador/
 ```
 
-Windows:
-
-```
-<comando_de_instalação>
-```
-
 ## ☕ Usando <Sorteador de Número>
 
 Para usar <Sorteador de Número>, siga estas etapas:
