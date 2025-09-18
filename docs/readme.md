@@ -17,7 +17,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Estrutura HTML
 - [x] Estilização CSS
 - [x] Implementação do JavaScript
-- [ ] Log dos Números sorteados
+- [x] Histórico dos Números sorteados
 
 ## 💻 Pré-requisitos
 
