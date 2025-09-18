@@ -31,9 +31,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
 Para utilizar o <Sorteador de Número>, siga estas etapas:
 
-Linux e macOS:
+Acesse o Link:
 
-```
+```https://kalebtavares.github.io/Sorteador/
 <comando_de_instalação>
 ```
 
