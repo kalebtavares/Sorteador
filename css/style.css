@@ -86,3 +86,48 @@ button:hover {
 button:active {
   opacity: 0.8;
 }
+
+.alerta {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: radial-gradient(circle, #fff 0%, #ffe0f0 100%);
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(255, 0, 150, 0.4);
+  display: none;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive;
+  animation: aparecer 0.5s ease-out;
+  z-index: 9999;
+  font-size: 32px;
+}
+.alerta .emoji {
+  font-size: 40px;
+  margin-bottom: 10px;
+  animation: pular 1s infinite;
+}
+.alerta button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+.alerta button:hover {
+  transform: scale(1.1);
+}
+
+@keyframes aparecer {
+  from { opacity: 0; transform: translate(-50%, -60%); }
+  to { opacity: 1; transform: translate(-50%, -50%); }
+}
+@keyframes pular {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}

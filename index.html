@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <title>Sorteador</title>
   </head>
   <body>
@@ -12,8 +12,24 @@
     <h2>Sorteador de Número</h2>
 
     <div>
-      <input class="input-min" type="number" id="minimo" placeholder="Número Mínimo" />
-      <input class="input-max" type="number" id="maximo" placeholder="Número Máximo" />
+      <input
+        class="input-min"
+        type="number"
+        id="minimo"
+        placeholder="Número Mínimo"
+      />
+      <input
+        class="input-max"
+        type="number"
+        id="maximo"
+        placeholder="Número Máximo"
+      />
+    </div>
+
+    <div id="alertaDivertido" class="alerta">
+      <div class="emoji">🎊</div>
+      <p id="mensagemAlerta"></p>
+      <button onclick="fecharAlerta()">Fechar 🎈</button>
     </div>
 
     <button onclick="generateNumber()" id="sortear">Sortear</button>
