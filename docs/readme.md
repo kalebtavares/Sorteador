@@ -1,4 +1,4 @@
-# Nome do projeto
+# Sorteador de Número
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/iuricode/README-template?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/iuricode/README-template?style=for-the-badge)
@@ -27,9 +27,9 @@ Antes de começar, verifique se você atendeu aos seguintes requisitos:
 - Você tem uma máquina `<Windows / Linux / Mac>`.
 - Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
-## 🚀 Usando <Sorteador>
+## 🚀 Usando <Sorteador de Número>
 
-Para utilizar o <Sorteador>, siga estas etapas:
+Para utilizar o <Sorteador de Número>, siga estas etapas:
 
 Linux e macOS:
 
@@ -43,9 +43,9 @@ Windows:
 <comando_de_instalação>
 ```
 
-## ☕ Usando <Sorteador>
+## ☕ Usando <Sorteador de Número>
 
-Para usar <Sorteador>, siga estas etapas:
+Para usar <Sorteador de Número>, siga estas etapas:
 
 ```
 <exemplo_de_uso>
@@ -53,9 +53,9 @@ Para usar <Sorteador>, siga estas etapas:
 
 Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
 
-## 📫 Contribuindo para <Sorteador>
+## 📫 Contribuindo para <Sorteador de Número>
 
-Para contribuir com <Sorteador>, siga estas etapas:
+Para contribuir com <Sorteador de Número>, siga estas etapas:
 
 1. Bifurque este repositório.
 2. Crie um branch: `git checkout -b <nome_branch>`.
@@ -98,10 +98,4 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
   </tr>
 </table>
 
-## 😄 Seja um dos contribuidores
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
-
-## 📝 Licença
-
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
