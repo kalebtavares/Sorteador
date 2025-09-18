@@ -33,8 +33,8 @@ Para utilizar o <Sorteador de Número>, siga estas etapas:
 
 Acesse o Link:
 
-```https://kalebtavares.github.io/Sorteador/
-<comando_de_instalação>
+```
+https://kalebtavares.github.io/Sorteador/
 ```
 
 Windows:
