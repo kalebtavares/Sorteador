@@ -23,9 +23,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 
 Antes de começar, verifique se você atendeu aos seguintes requisitos:
 
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- Navegador Desktop ou Mobile
 
 ## 🚀 Usando <Sorteador de Número>
 
@@ -41,9 +39,8 @@ https://kalebtavares.github.io/Sorteador/
 
 Para usar <Sorteador de Número>, siga estas etapas:
 
-clique em sortear, aguarde a geração do número exibido na tela, você pode também, definir uma faixa minima e máxima de números para o sorteador realizar o sorteio.
+definir uma faixa minima e máxima de números, clique em sortear, o número gerado será exibido na tela.
 
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
 
 ## 📫 Contribuindo para <Sorteador de Número>
 
