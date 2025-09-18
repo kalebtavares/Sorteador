@@ -39,7 +39,7 @@ https://kalebtavares.github.io/Sorteador/
 
 Para usar <Sorteador de Número>, siga estas etapas:
 
-definir uma faixa minima e máxima de números, clique em sortear, o número gerado será exibido na tela.
+Definir uma faixa minima e máxima de números, clique em sortear, o número gerado será exibido na tela.
 
 
 ## 📫 Contribuindo para <Sorteador de Número>
