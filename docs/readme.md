@@ -80,7 +80,7 @@ Agradecemos às seguintes pessoas que contribuíram para este projeto:
       </a>
     </td>
     <td align="center">
-      <a href="#" title="Exmeplo de inovação e visionário">
+      <a href="#" title="Exemplo de inovação e visionário">
         <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
         <sub>
           <b>Steve Jobs</b>
