@@ -6,7 +6,7 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
-<img src="/assets/image/amostra.png" alt="amostra">
+<img src="/assets/image/amostra-sorteador.png" alt="amostra">
 
 Esse projeto está sendo desenvolvido em HTML, CSS e JavaScript, o objetivo é criar um sorteador de números aleatórios onde o usuário consegue definir o número minimo e máximo, indicado para sorteios de redes sociais, rifas e bingos. 
 
@@ -18,6 +18,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Estilização CSS
 - [x] Implementação do JavaScript
 - [x] Histórico dos Números sorteados
+- [x] Responsividade
 
 ## 💻 Pré-requisitos
 
