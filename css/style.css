@@ -14,19 +14,29 @@ body {
   justify-content: center;
   flex-direction: column;
   min-height: 100vh;
-
- 
+  padding: 20px; /* Adiciona um espaçamento nas laterais em telas pequenas */
 }
 
 img {
-  width: 583px;
-  height: 374px;
+  max-width: 583px; /* Largura máxima para a imagem */
+  width: 100%;      /* Faz a imagem se ajustar à largura do container */
+  height: auto;     /* Mantém a proporção da imagem */
 }
+
+/* Container para os inputs para facilitar o layout */
+.input-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px; /* Espaçamento entre os inputs */
+  flex-wrap: wrap; /* Permite que os inputs quebrem para a linha de baixo */
+}
+
 button {
   border-radius: 10px;
   background: #aec346;
   box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
-  width: 342px;
+  max-width: 342px; /* Largura máxima */
+  width: 100%;      /* Ocupa a largura disponível */
   height: 72px;
   color: #fff;
   font-weight: 700;
@@ -51,7 +61,8 @@ input {
   background: rgba(255, 255, 255, 0.25);
   border: 1px solid rgba(255, 255, 255, 0.20);
   border-radius: 14px;
-  width: 342px;
+  max-width: 342px; /* Largura máxima */
+  width: 100%;      /* Ocupa a largura disponível */
   height: 74px;
   padding-left: 20px;
   color: #FFFFFF;
@@ -59,25 +70,10 @@ input {
   font-weight: 500;
   line-height: 47px;
   opacity: 0.7;
-  
+  text-align: center; /* Centraliza o número digitado */
 }
 .input-min {
-  margin-right: 62px;
-}
-
-button {
-background: #AEC346;
-box-shadow: 0 18px 40px 0 rgba(174, 195, 70, 0.35);
-border-radius: 10px;
-width: 342px;
-height: 72px;
-color: #FFFFFF;
-font-weight: 700;
-font-size: 36px;
-margin-top: 80px;
-border: none;
-cursor: pointer;
-
+  /* margin-right: 62px; -> Removido para usar 'gap' no container */
 }
 
 button:hover {
@@ -158,4 +154,19 @@ margin-top: auto;
   padding: 8px 12px;
   border-radius: 8px;
   box-shadow: 0 0 5px rgba(0,0,0,0.05);
+}
+
+/* Media Query para telas maiores (desktops) */
+@media (min-width: 768px) {
+  .input-container {
+    flex-wrap: nowrap; /* Impede que os inputs quebrem a linha */
+  }
+
+  input {
+    width: 342px; /* Define uma largura fixa para os inputs em telas maiores */
+  }
+
+  .input-min {
+    margin-right: 62px; /* Restaura a margem para telas maiores */
+  }
 }
