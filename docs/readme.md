@@ -19,6 +19,7 @@ O projeto ainda está em desenvolvimento e as próximas atualizações serão vo
 - [x] Implementação do JavaScript
 - [x] Histórico dos Números sorteados
 - [x] Responsividade
+- [x] Verificar se  valor minimo digitado é menor que o número maior
 
 ## 💻 Pré-requisitos
 
